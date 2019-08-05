@@ -1,85 +1,130 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 0;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+li {
+  float: right;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+header {
+  padding: 8% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
+
+
+.projectsContainer, .contact {
+    background-color: #046B99;
+    color: #ffffff;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.lotrGif {
+  width: 60%;
+  height: 35%;
+}
+
+p {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 16px;
+}
+
+.aboutEvan,
+.tagLine,
+.lotrDescription {
+  text-align: left;
+}
+
+.tagLine {
+  font-weight: bold;
+}
+
+.openingLine {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-left: 5%;
+  margin-right: 60%;
+  text-align: left;
   
-  body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-  }
+}
+
+.headline {
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  margin-left: 68%;
+  margin-right: 5%;
+  font-weight: bold;
   
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-  
-  header {
-    padding: 8% 0;
-  }
-  
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
-  }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
-  
-  .lotrGif {
-    width: 50%;
-    height: 50%;
-  }
-  
-  p {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  
-  .aboutEvan, .tagLine {
-    text-align: left;
-  }
-  
-  .tagLine {
-    font-weight: bold;
-  }
-  
-  .openingLine {
-    font-weight: bolder;
-    margin-left: 5%;
-    margin-right: 60%;
-    text-align: left;
-    color: #444;
-  }
-  
-  .headline {
-    text-align: right;
-    margin-left: 68%;
-    margin-right: 5%;
-    font-weight: bold;
-    color: #444;
-    
-  }
-  
-  .evDevBanner {
-    background-image: url('../EvSerious.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #aaa;
-  }
-  
-  
+}
+
+.evDevBanner {
+  background-image: url("../EvDevPic1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #1c304a;
+  color: #ffffff;
+}
+
+.aboutContainer {
+  background-color: #1c304a;
+  color: #ffffff;
+}
