@@ -53,10 +53,9 @@ li a {
   background-color: #1c304a;
   color: #ffffff;
 }
- li a:hover {
-     color: #7ebdc2;
- }
-
+li a:hover {
+  color: #7ebdc2;
+}
 
 header {
   padding: 8% 0;
@@ -67,11 +66,10 @@ section {
   padding: 6% 0;
 }
 
-
-
-.projectsContainer, .contact {
-    background-color: #004466;
-    color: #ffffff;
+.projectsContainer,
+.contact {
+  background-color: #004466;
+  color: #ffffff;
 }
 
 h2 {
@@ -98,7 +96,7 @@ p {
 }
 
 .tagLine {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .openingLine {
@@ -107,7 +105,6 @@ p {
   margin-left: 5%;
   margin-right: 60%;
   text-align: left;
-  
 }
 
 .headline {
@@ -116,7 +113,6 @@ p {
   margin-left: 68%;
   margin-right: 5%;
   font-weight: bold;
-  
 }
 
 .evDevBanner {
@@ -134,9 +130,23 @@ p {
 }
 
 .link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .link:hover {
-    color: #7ebdc2;
+  color: #7ebdc2;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.techIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lotrDescription {
+    text-align: center;
 }
