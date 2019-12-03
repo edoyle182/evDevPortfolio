@@ -78,6 +78,10 @@ h2 {
   font-size: 20px;
 }
 
+.left-arrow, .right-arrow { 
+  margin: 2.5%;
+} 
+
 .lotrGif {
   width: 60%;
   height: 35%;

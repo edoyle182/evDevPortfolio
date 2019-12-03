@@ -8,7 +8,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Open+Sans:400,600&display=swap"
@@ -38,31 +38,28 @@
     </header>
 
     <main role="main">
+      
       <section class="projectsContainer" id="projectsSection">
-        <h2 class="projects">projects</h2>
-        <img
+        <h2 class="projects"><i id="leftArrow" class="fas fa-chevron-left left-arrow"></i>projects<i id="rightArrow" class="fas fa-chevron-right right-arrow"></i></h2>
+        
+        <img id="projGif"
           class="lotrGif"
-          src="resources/LOTRquiz.gif"
-          alt="lord of the rings quiz app gif"
         />
-        <h3>Lord of the Rings Quiz App</h3>
-        <p class="lotrDescription">
-          A quiz application that tests your knowledge of Tolkien's LOTR
-          trilogy. Includes score-tracking, correct/incorrect answer
-          presentation after each answer submission, as well as a final results
-          and restart quiz page.
-        </p>
+        <h3 id="projTitle"></h3>
+        <p id="projDescription" class="lotrDescription"></p>
+        
         <div class="techIcons">
           <i class="fab fa-html5 fa-3x" id="html5"></i>
           <i class="fab fa-js fa-3x" id="js"></i>
           <i class="fab fa-css3-alt fa-3x" id="css3"></i>
         </div>
 
-        <a class="link" href="https://edoyle182.github.io/lotr_quiz_app/" target="_blank">Live Version</a>
+        <a id="liveProjLink" class="link" href="" target="_blank">Live Version</a>
         <br />
-        <a class="link" href="https://github.com/edoyle182/lotr_quiz_app" target="_blank">GitHub Repository</a>
+        <a id="gitHubRepoLink" class="link" href="" target="_blank">GitHub Repository</a>
       </section>
 
+      
       <section class="aboutContainer" id="aboutSection">
         <h2 class="about">about</h2>
         <p class="tagLine">
@@ -102,5 +99,6 @@
       <a class="link" href="https://github.com/edoyle182" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
       <a class="link" href="https://www.linkedin.com/in/evan-doyle-dev-0182/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
